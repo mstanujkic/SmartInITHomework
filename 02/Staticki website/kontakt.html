@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premier League</title>
+
+  <link href="app.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="navbar" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="kontakt.html">Kontakt</a>
+  </div>
+
+  <div class="container">
+    <form>
+      <legend>
+
+        <strong><em>Vaše infromacije:</em></strong>
+        <hr id="hr-k" />
+      </legend>
+      <br />
+
+      <div class="form-row">
+        <div class="form-column">
+          <label for="textIme" class="required">Ime:</label>
+        </div>
+        <div class="form-column">
+          <input type="text" id="textIme" name="ime" class="field" required /><br />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-column">
+          <label for="email" class="required">Email:</label>
+        </div>
+        <div class="form-column">
+          <input type="email" id="email" name="email" class="field" required /><br />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-column">
+          <label for="telefon">Telefon:</label>
+        </div>
+        <div class="form-column">
+          <input type="number" id="telefon" name="telefon" class="field" />-
+          <input type="number" id="telefon" name="telefon" class="field" />-
+          <input type="number" id="telefon" name="telefon" class="field" /><br />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-column">
+          <label for="drzava">Država:</label>
+        </div>
+        <div class="form-column">
+          <select id="country" name="country" class="field">
+            <option value="BiH">Bosna i Hercegovina</option>
+            <option value="HR">Hrvatska</option>
+            <option value="CG">Crna Gora</option>
+            <option value="SR" selected>Srbija</option>
+            <option value="RU">Rumunija</option>
+          </select> </br>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-column">
+          <label for="poruka" class="required">Poruka:</label>
+        </div>
+        <div class="form-column">
+          <textarea rows="5" id="comment" class="field"></textarea><br />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-column">
+        </div>
+        <div class="form-column">
+          <input id="Submit" type="submit" value="Submit" />
+        </div>
+      </div>
+
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+</html>
