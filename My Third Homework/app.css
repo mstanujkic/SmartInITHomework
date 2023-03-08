@@ -92,40 +92,6 @@
   #table-section {
     overflow-x: auto;
   }
-  
-  /* table {
-    border-collapse: collapse;
-    background-color: rgba(243, 243, 243, 0.24);
-    border: 2px solid rgb(255, 251, 0);
-    margin: 20px;
-    width: fit-content;
-  } */
-  
-  /* th,
-  td {
-    font-size: 11px;
-    color: rgb(124, 124, 124);
-    border: 1px solid rgb(204, 204, 204);
-    padding: 20px;
-  }
-  
-  th {
-    text-align: left;
-    background-color: rgb(230, 227, 227);
-  }
-  
-  td {
-    font-weight: 600;
-  }
-  
-  table tr:nth-child(2n + 1) {
-    background-color: rgb(241, 240, 240);
-  }
-  
-  tr td:nth-child(2n) {
-    text-align: center;
-  } */
-
 
   table a:visited {
     color: #999999;
